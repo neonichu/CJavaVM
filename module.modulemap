@@ -1,0 +1,5 @@
+module CJavaVM [system] {
+    header "/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers/jni.h"
+    link "jvm"
+    export *
+}
